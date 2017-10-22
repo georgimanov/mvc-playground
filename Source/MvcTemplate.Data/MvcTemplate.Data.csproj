@@ -58,6 +58,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="Migrations\201710221824466_InitialCreate.cs" />
+    <Compile Include="Migrations\201710221824466_InitialCreate.Designer.cs">
+      <DependentUpon>201710221824466_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710221931338_JokesAndJokesCategories.cs" />
+    <Compile Include="Migrations\201710221931338_JokesAndJokesCategories.Designer.cs">
+      <DependentUpon>201710221931338_JokesAndJokesCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +82,14 @@
       <Project>{D056C230-D759-4809-A360-6928115870CC}</Project>
       <Name>MvcTemplate.Data.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201710221824466_InitialCreate.resx">
+      <DependentUpon>201710221824466_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710221931338_JokesAndJokesCategories.resx">
+      <DependentUpon>201710221931338_JokesAndJokesCategories.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
