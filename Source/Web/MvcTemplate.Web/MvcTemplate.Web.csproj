@@ -299,6 +299,10 @@
     </AdditionalFiles>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\MvcTemplate.Data.Common\MvcTemplate.Data.Common.csproj">
+      <Project>{A573E50C-71CB-4E12-86A4-7687474CEE09}</Project>
+      <Name>MvcTemplate.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\MvcTemplate.Data.Models\MvcTemplate.Data.Models.csproj">
       <Project>{D056C230-D759-4809-A360-6928115870CC}</Project>
       <Name>MvcTemplate.Data.Models</Name>
