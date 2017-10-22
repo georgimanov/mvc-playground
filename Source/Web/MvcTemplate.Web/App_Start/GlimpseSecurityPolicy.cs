@@ -18,7 +18,9 @@ namespace MvcTemplate.Web
             return RuntimePolicy.On;
         }
 
+#pragma warning disable SA1201 // Elements must appear in the correct order
         public RuntimeEvent ExecuteOn
+#pragma warning restore SA1201 // Elements must appear in the correct order
         {
             // The RuntimeEvent.ExecuteResource is only needed in case you create a security policy
             // Have a look at http://blog.getglimpse.com/2013/12/09/protect-glimpse-axd-with-your-custom-runtime-policy/ for more details
