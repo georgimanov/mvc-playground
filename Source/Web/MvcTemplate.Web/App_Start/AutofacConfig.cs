@@ -39,27 +39,6 @@
 
         private static void RegisterServices(ContainerBuilder builder)
         {
-            builder
-                .Register(x => new Service())
-                .As<IService>()
-                .InstancePerRequest();
-        }
-    }
-
-#pragma warning disable SA1201 // Elements must appear in the correct order
-    public interface IService
-#pragma warning restore SA1201 // Elements must appear in the correct order
-    {
-        void Work();
-    }
-
-#pragma warning disable SA1402 // File may only contain a single class
-    public class Service : IService
-#pragma warning restore SA1402 // File may only contain a single class
-    {
-        public void Work()
-        {
-            Trace.WriteLine("I am working...");
         }
     }
 }

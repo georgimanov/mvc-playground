@@ -5,7 +5,7 @@
     using System.Web;
     using System.Web.Mvc;
 
-    using MvcTemplate.Data.Models;
+    using Data.Models;
 
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;

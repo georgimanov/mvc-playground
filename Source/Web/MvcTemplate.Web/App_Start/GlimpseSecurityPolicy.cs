@@ -1,12 +1,10 @@
-﻿/*
-// Uncomment this class to provide custom runtime policy for Glimpse
-
-using Glimpse.AspNet.Extensions;
-using Glimpse.Core.Extensibility;
+﻿// Uncomment this class to provide custom runtime policy for Glimpse
 
 namespace MvcTemplate.Web
 {
-    public class GlimpseSecurityPolicy:IRuntimePolicy
+    using Glimpse.Core.Extensibility;
+
+    public class GlimpseSecurityPolicy : IRuntimePolicy
     {
         public RuntimePolicy Execute(IRuntimePolicyContext policyContext)
         {
@@ -17,7 +15,6 @@ namespace MvcTemplate.Web
             // {
             //     return RuntimePolicy.Off;
             // }
-
             return RuntimePolicy.On;
         }
 
@@ -29,4 +26,3 @@ namespace MvcTemplate.Web
         }
     }
 }
-*/
