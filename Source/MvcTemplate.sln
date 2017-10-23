@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTemplate.Data", "MvcTemp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTemplate.Data.Common", "Data\MvcTemplate.Data.Common\MvcTemplate.Data.Common.csproj", "{A573E50C-71CB-4E12-86A4-7687474CEE09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTemplate.Web.Infrastructure", "MvcTemplate.Web.Infrastructure\MvcTemplate.Web.Infrastructure.csproj", "{748259FE-3473-4FD3-9E8A-ECA4F2AB6538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{A573E50C-71CB-4E12-86A4-7687474CEE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A573E50C-71CB-4E12-86A4-7687474CEE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A573E50C-71CB-4E12-86A4-7687474CEE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748259FE-3473-4FD3-9E8A-ECA4F2AB6538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748259FE-3473-4FD3-9E8A-ECA4F2AB6538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748259FE-3473-4FD3-9E8A-ECA4F2AB6538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748259FE-3473-4FD3-9E8A-ECA4F2AB6538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +56,6 @@ Global
 		{D056C230-D759-4809-A360-6928115870CC} = {8103CD5B-2A92-401C-A854-A31E0FD44DE6}
 		{ADAC79F4-4AF6-46D1-880F-234BA79D7938} = {8103CD5B-2A92-401C-A854-A31E0FD44DE6}
 		{A573E50C-71CB-4E12-86A4-7687474CEE09} = {8103CD5B-2A92-401C-A854-A31E0FD44DE6}
+		{748259FE-3473-4FD3-9E8A-ECA4F2AB6538} = {99FC36D3-D963-4263-BF69-8BD11F801E2B}
 	EndGlobalSection
 EndGlobal
